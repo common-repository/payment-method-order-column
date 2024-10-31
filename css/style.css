@@ -1,0 +1,41 @@
+.payment-icons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.payment-icons-row {
+    display: contents;
+}
+
+.payment-icons-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.payment-method-name {
+    font-weight: bold;
+    align-self: center;
+}
+
+.payment-method-icon img {
+    max-width: 64px;
+    max-height: 64px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment-method-actions {
+    display: flex;
+    align-items: center;
+}
+
+.payment-method-actions input[type="text"] {
+    margin-right: 10px;
+}
+
+
+button.upload_icon_button.button {
+    margin-right: 10px !important;;
+}
